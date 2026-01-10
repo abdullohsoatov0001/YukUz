@@ -1,3 +1,28 @@
 {
-    "title": "Xush kelipsiz"
+    "nav": {
+        "documentation": "Hujjatlar",
+        "pricing": "Narxlar",
+        "faq": "Savol-Javob",
+        "contact": "Bog'lanish",
+        "login": "Kirish"
+    },
+    "header": {
+        "title": "Qulay yuk va transport almashish xizmati",
+        "loads": "Yuklar",
+        "transports": "Transportlar",
+        "from": "Qayerdan",
+        "to": "Qayerga",
+        "from_date": "Boshlanish sanasi",
+        "to_date": "Tugash sanasi",
+        "search": "Qidirish",
+        "transport_coming": "Transport qidiruv shakli tez orada..."
+    },
+    "infocard": {
+        "users": "Foydalanuvchilar",
+        "loads": "Yuklar",
+        "transports": "Transportlar"
+    },
+    "sectionMap": {
+        "find_on_map": "Xaritada faol yuklar va transportlarni toping"
+    }
 }

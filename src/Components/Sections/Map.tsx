@@ -3,6 +3,7 @@ import maplibregl from "maplibre-gl";
 import HeaderBtn from "../Childrens/HeaderBtn";
 import { Cuboid, Truck } from "lucide-react";
 import "maplibre-gl/dist/maplibre-gl.css";
+import { useTranslation } from "react-i18next";
 
 const MAPTILER_KEY = "rf1gXMhGBAjtNceCNzpk";
 
@@ -16,6 +17,7 @@ const locations: [number, number][] = [
 const Map = () => {
     const mapContainer = useRef<HTMLDivElement | null>(null);
     const [open, setOpen] = useState("load");
+    const { t } = useTranslation()
 
     useEffect(() => {
         if (!mapContainer.current) return;
@@ -64,12 +66,12 @@ const Map = () => {
     return (
         <section className="bg-white/90 max-w-280 m-auto max-md:px-2">
             <h3 className="text-[32px] text-center font-bold mt-20">
-                Find active loads and transports on map
+                {t('sectionMap.find_on_map')}
             </h3>
             <div className="justify-center m-auto mt-10 flex gap-6 max-md:mt-4">
                 <div onClick={() => setOpen(open === "load" ? "" : "load")}>
                     <HeaderBtn
-                        text="Loads"
+                        text={t("header.loads")}
                         className={
                             open === "load"
                                 ? "bg-black/50 text-white"
@@ -85,7 +87,7 @@ const Map = () => {
                                 ? "bg-black/50 text-white"
                                 : "bg-white text-black shadow"
                         }
-                        text="Transports"
+                        text={t("header.transports")}
                         img={<Truck />}
                     />
                 </div>

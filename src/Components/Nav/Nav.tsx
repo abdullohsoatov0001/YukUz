@@ -13,14 +13,14 @@ const Nav: React.FC = () => {
             <img src={img} alt="" />
         </div>
         <ul className='flex gap-10 max-md:hidden'>
-            <li className='text-[22px] '>Documentation</li>
-            <li className='text-[22px] '>Pricing</li>
-            <li className='text-[22px] '>FAQ</li>
-            <li className='text-[22px] '>Contact</li>
+            <li className='text-[22px]'>{t('nav.documentation')}</li>
+            <li className='text-[22px]'>{t('nav.pricing')}</li>
+            <li className='text-[22px]'>{t('nav.faq')}</li>
+            <li className='text-[22px]'>{t('nav.contact')}</li>
         </ul>
         <div className='flex gap-5 items-center'>
             <ChangeLanguage />
-            <Button text={"Kirish"} />
+            <Button text={t('nav.login')} />
         </div>
 
     </nav>

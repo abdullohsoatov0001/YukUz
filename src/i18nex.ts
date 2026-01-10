@@ -5,7 +5,7 @@ const uz = await fetch('/Uz/translation.json').then(res => res.json());
 import { initReactI18next } from 'react-i18next'
 
 i18next.use(initReactI18next).init({
-    fallbackLng: 'en',
+    fallbackLng: 'uz',
     debug: true,
     resources: {
         ru: {

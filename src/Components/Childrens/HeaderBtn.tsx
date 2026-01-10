@@ -10,7 +10,7 @@ const HeaderBtn = ({ text, className, img }: HeaderBtnProps) => {
         <button className={`${className}
          flex items-center gap-4 p-2 cursor-pointer rounded-lg
         `}>
-            < div > {img}</div >
+            <div> {img}</div >
             <p className=" text-[18px]">{text}</p>
         </button >
 
