@@ -1,3 +1,4 @@
+import React from 'react'
 import { motion } from 'framer-motion';
 import { Check } from 'lucide-react';
 import type { Step } from './../../Types/type.ts';
@@ -7,7 +8,7 @@ interface StepperProps {
     activeStep: number;
 }
 
- function Stepper({ steps, activeStep }: StepperProps) {
+function Stepper({ steps, activeStep }: StepperProps) {
     return (
         <div className="relative">
             <div className="absolute left-4.75 top-8 bottom-8 w-0.5 bg-gray-200"></div>

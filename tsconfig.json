@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "target": "ES6",
+    "target": "es2017",
+    "module": "esnext", // ✅ добавлено для top-level await
     "lib": [
       "DOM",
       "ESNext"

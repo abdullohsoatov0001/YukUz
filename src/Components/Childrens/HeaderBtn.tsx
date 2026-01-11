@@ -1,3 +1,5 @@
+import React from 'react'
+
 type HeaderBtnProps = {
     text: string
     img: any,

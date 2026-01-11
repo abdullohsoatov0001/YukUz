@@ -1,4 +1,4 @@
-
+import React from 'react'
 type InfoCardProps = {
   img: string,
   title: string,

@@ -32,7 +32,7 @@ const Header: React.FC = () => {
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                 }}
-                className='bg-no-repeat h-190 max-md:h-210'
+                className='bg-no-repeat h-190 max-md:h-220'
             >
                 <h1 className='text-[32px] text-white text-center pt-30 font-bold max-md:pt-10'>
                     {t("header.title")}
@@ -97,7 +97,7 @@ const Header: React.FC = () => {
                 )}
                 <div className='flex justify-center max-md:gap-2 gap-6
                  mt-40 max-md:mt-10 max-md:flex-wrap max-md:justify-center
-                 max-md:absolute max-md:px-5 max-md:left-5  max-md:-bottom-95
+                 max-md:absolute max-md:px-5 max-md:left-5  max-md:-bottom-105
                  '>
                     <InfoCard img={imgUsers} title={t("infocard.users")} desc={1908} className=' bg-[#3B7CCC] max-md:w-27.25 ' img2={imgVector} />
                     <InfoCard img={imgPack} title={t('infocard.loads')} desc={234} img2={imgVector2} className='bg-[#5856D6] max-md:w-27.25 ' />
