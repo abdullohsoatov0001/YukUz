@@ -1,22 +1,28 @@
-import i18next from 'i18next'
+import i18next from 'i18next';
+import { initReactI18next } from 'react-i18next';
 
-import { initReactI18next } from 'react-i18next'
-const ru = await fetch('/Ru/translation.json').then(res => res.json());
-const uz = await fetch('/Uz/translation.json').then(res => res.json());
+// Импортируем JSON напрямую (Webpack сам превратит их в объекты)
+import ruTranslation from './../public/Ru/translation.json'
+import uzTranslation from './../public/Uz/translation.json'
 
-i18next.use(initReactI18next).init({
+
+i18next
+  .use(initReactI18next)
+  .init({
+    resources: {
+      ru: {
+        translation: ruTranslation
+      },
+      uz: {
+        translation: uzTranslation
+      }
+    },
+    lng: 'uz', // начальный язык
     fallbackLng: 'uz',
     debug: true,
-    resources: {
-        ru: {
-            translation: ru
-        },
-        uz: {
-            translation: uz
-        }
-    },
     interpolation: {
-        escapeValue: false
+      escapeValue: false
     }
-})
-export default i18next
+  });
+
+export default i18next;
