@@ -1,18 +1,22 @@
 import i18next from 'i18next'
-import { initReactI18next } from 'react-i18next'
 
-// Синхронный импорт JSON
-import ru from './Locales/Ru/translation.json'
-import uz from './Locales/Uz/translation.json'
+import { initReactI18next } from 'react-i18next'
+const ru = await fetch('/Ru/translation.json').then(res => res.json());
+const uz = await fetch('/Uz/translation.json').then(res => res.json());
 
 i18next.use(initReactI18next).init({
     fallbackLng: 'uz',
     debug: true,
     resources: {
-        ru: { translation: ru },
-        uz: { translation: uz }
+        ru: {
+            translation: ru
+        },
+        uz: {
+            translation: uz
+        }
     },
-    interpolation: { escapeValue: false }
+    interpolation: {
+        escapeValue: false
+    }
 })
-
 export default i18next
