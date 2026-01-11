@@ -1,5 +1,6 @@
 import React from 'react'
 import img from './../../assets/Logo (for light background).png';
+
 import ChangeLanguage from '../ChangeLanguage/ChangeLanguage';
 import { useTranslation } from 'react-i18next';
 import Button from '../Childrens/Button';
@@ -10,7 +11,7 @@ const Nav: React.FC = () => {
     return <nav className='flex justify-between items-center max-w-280 mx-auto py-6 max-md:px-4'>
         <div className='flex items-center gap-4'>
             <img className='hidden max-md:block' src={imgMenu} alt="" />
-            <img src={img} alt="" />
+            <img className='w-19.5 h-16' src={img} alt="" />
         </div>
         <ul className='flex gap-10 max-md:hidden'>
             <li className='text-[22px]'>{t('nav.documentation')}</li>

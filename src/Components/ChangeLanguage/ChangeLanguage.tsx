@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { FiChevronDown } from 'react-icons/fi';
 
 const ChangeLanguage: React.FC = () => {
     const languages = [
@@ -7,14 +8,13 @@ const ChangeLanguage: React.FC = () => {
         { code: 'ru', label: 'RU', flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/960px-Flag_of_Russia.svg.png' },
     ];
 
-
     const { i18n } = useTranslation();
     const [selected, setSelected] = useState(languages[0]);
     const [open, setOpen] = useState(false);
 
     const changeLang = (lang: typeof languages[0]) => {
         setSelected(lang);
-        i18n.changeLanguage(lang.code); // 🔥 ВОТ ЭТО ГЛАВНОЕ
+        i18n.changeLanguage(lang.code);
         setOpen(false);
     };
 
@@ -26,6 +26,9 @@ const ChangeLanguage: React.FC = () => {
             >
                 <img className="w-8 h-6" src={selected.flag} />
                 <span>{selected.label}</span>
+                <FiChevronDown
+                    className={`transition-transform duration-200 ${open ? 'rotate-180' : ''}`}
+                />
             </button>
 
             {open && (

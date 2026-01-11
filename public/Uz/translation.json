@@ -24,5 +24,121 @@
     },
     "sectionMap": {
         "find_on_map": "Xaritada faol yuklar va transportlarni toping"
+    },
+    "footer": {
+        "navigation": "Navigatsiya",
+        "nav": {
+            "loads": "Yuklar va transportlar",
+            "map": "Xarita",
+            "carriers": "Yuk tashuvchilar",
+            "partners": "Hamkorlar"
+        },
+        "security": "Xavfsizlik",
+        "security_links": {
+            "account": "Mening hisobim",
+            "faq": "Ko‘p beriladigan savollar",
+            "terms": "Foydalanish shartlari",
+            "privacy": "Maxfiylik siyosati"
+        },
+        "reach_us": "Biz bilan bog‘lanish",
+        "phone": "+998 77 353 88 88",
+        "email": "info@yuk.uz",
+        "address": "O‘zbekiston, Toshkent shahri, Chilonzor tumani, Bunyodkor 44",
+        "download": "Ilovani yuklab oling",
+        "copyright": "Mualliflik huquqi © 2025 Yuk.uz. Barcha huquqlar himoyalangan"
+    },
+    "appProgram": {
+        "title": "Nega foydalanuvchilar bizni tanlashadi?",
+        "description": "Foydalanuvchilar Yuk.uz ilovasi orqali o‘z smartfonlarida yuklarni, haydovchilarni va ularni hujjatlarini to‘liq kuzatishlari mumkin",
+        "explore": "Mobil ilovani ko‘rish",
+        "download": "Yuk.uz ilovasini yuklab oling"
+    },
+    "faq": {
+        "q1": {
+            "question": "Fayl qanchalik tez-tez yangilanadi va bu qo‘llab-quvvatlashga kiradimi?",
+            "answer": "Biz eng yaxshi ishlash va xavfsizlikni ta’minlash uchun muntazam yangilab boramiz."
+        },
+        "q2": {
+            "question": "Ushbu veb-saytdan foydalanish bepulmi?",
+            "answer": "Ha, asosiy reja barcha foydalanuvchilar uchun mutlaqo bepul."
+        },
+        "q3": {
+            "question": "Fayl o‘rnatish bo‘yicha hujjatlar bilan birga keladimi?",
+            "answer": "Albatta! Rejangizni istalgan vaqtda yangilashingiz mumkin, barcha ma’lumotlar saqlanib qoladi."
+        },
+        "q4": {
+            "question": "Siz maxsus ishlarni bajarasizmi? Sizni yollash mumkinmi?",
+            "answer": "Ha! Biz maxsus buyurtmalarni ham bajaramiz."
+        },
+        "q5": {
+            "question": "Pulni qaytarish kafolati bormi?",
+            "answer": "Ha, biz qaytarib berish kafolatini taqdim etamiz."
+        },
+        "q6": {
+            "question": "Sotib olgandan keyin reja qachon faollashadi?",
+            "answer": "Reja to‘lov amalga oshirilgach darhol faollashadi."
+        }
+    },
+    "openInfo": {
+        "title": "Ko‘p beriladigan savollar",
+        "description": "Bu yerda sizni qiziqtirgan savollarga javoblar bor va nima uchun mahsulotimizni tanlash kerakligini bilib olasiz"
+    },
+    "infoSections": {
+        "title1": "Eng tezkor va moslashuvchan quruqlik transporti",
+        "info1": "Bizning ulkan va bog‘langan yuk mashinalari parki orqali siz yuklaringizni har qanday manzilga tez va ishonchli yetkazishingiz mumkin. Yo‘l transporti qisqa masofalar uchun eng maqbul va samarali yechimdir.",
+        "icon1": "Keng qamrovli yuk mashinalari tarmog‘i",
+        "icon2": "Real vaqtda kuzatuv imkoniyati",
+        "icon3": "Tezkor yetkazib berish",
+        "button1": "Batafsil ma’lumot",
+        "title2": "Dunyo okeanlari orqali ishonchli yetkazib berish",
+        "info2": "Katta hajmdagi yuklaringizni dengiz orqali iqtisodiy va barqaror tarzda tashib beramiz. Global hamkorlarimiz orqali har bir konteyneringiz xavfsiz va vaqtida yetkaziladi.",
+        "iconText2": "Katta hajmli yuklar uchun eng maqbul yechim",
+        "icon2Text2": "Xalqaro miqyosda keng tarmoq",
+        "icon3Text2": "Xarajat jihatdan arzon transport turi",
+        "button2": "Tez orada",
+        "title3": "Eng tezkor global yetkazib berish",
+        "info3": "Agar yuklaringizni qisqa vaqt ichida boshqa qit’aga yetkazishingiz kerak bo‘lsa, havo transporti eng yaxshi tanlov. Premium aviakompaniyalar bilan hamkorlik orqali yuklaringiz tez va xavfsiz yetib boradi.",
+        "icon1Text3": "Eng tez yetkazib berish xizmati",
+        "icon2Text3": "Global premium aviakompaniyalar bilan hamkorlik",
+        "icon3Text3": "Yuqori xavfsizlik kafolati",
+        "button3": "Tez orada"
+    },
+    "workflow": {
+        "title": "Jarayon ishlash tartibi",
+        "subtitle": "bosqichma-bosqich samaradorlik",
+        "description": "Bizning soddalashtirilgan jarayonimiz buyurtmani joylashtirishdan tortib yakuniy yetkazib berishgacha maksimal samaradorlikni ta'minlaydi",
+        "button": {
+            "label": "Workflow demo videoni ko'rish",
+            "description": "Jarayonni kuzatish maqsadida demo videolarni ko'rib chiqing"
+        },
+        "modal": {
+            "title": "Demo Video",
+            "description": "Video mazmuni shu yerda ko'rsatiladi"
+        },
+        "steps": {
+            "1": {
+                "title": "Hisob yaratish",
+                "description": "Ro‘yxatdan o‘ting va kontaktlarga kirish huquqini oling. Shaxsiy hisobingiz barcha jarayonlarni boshqarish markazidir."
+            },
+            "2": {
+                "title": "Yuk yoki trukk qo‘shish",
+                "description": "Aniq qidiruv uchun yuk yoki trukk parametrlarini belgilang."
+            },
+            "3": {
+                "title": "Tashuvchi yoki mijoz topish",
+                "description": "Ishonchli hamkor bilan tez bog‘lanish uchun aqlli qidiruv tizimidan foydalaning."
+            }
+        }
+    },
+    "partners": {
+        "title": "Bizning Hamkorlarimiz",
+        "description": "Kuchli hamkorlik orqali transport sanoatining kelajagini shakllantirmoqdamiz, yangi avlod raqamli platformalari va axborot tizimlarini yaratib rivojlantirmoqdamiz.",
+        "logos": {
+            "1": "logoone",
+            "2": "AIRCUZ",
+            "3": "Truck Service",
+            "4": "IRU",
+            "5": "Global Network"
+        }
     }
 }
